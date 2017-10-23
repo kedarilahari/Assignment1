@@ -1,0 +1,130 @@
+.header__nav{
+    overflow: hidden; 
+      height: 100%;
+  }
+
+.header__nav a{
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    color: white;
+    float: left;
+    margin: 10px
+  }
+
+.header__nav a:hover{
+      background-color: white;
+      color: black;
+  }
+    .pull-right{
+      float: right;
+    }
+    .primary{
+      background-color: #e51b1b;
+    }
+    .banner{
+      background-image: url("");
+    }
+    .emphasis{
+      color: red;
+    }
+    .clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+  .content{
+    float: left;
+  }
+  .content-left{
+    
+    width: 50%;
+  }
+  .content-right{
+    width: 50%;
+    
+  }
+  .card{
+    background-color: white;
+  }
+  input, select, textarea{
+    width:45%;
+    box-sizing:border-box;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.links{
+  list-style: none;
+  padding: 0px;
+}
+.glyphicon{
+  color: grey;
+}
+footer {
+    color: #878788;
+}
+.links a{
+  text-decoration: none;
+}
+.background-dark{
+  background-color: #363636;
+}
+.background-light{
+  background-color: #f4f5f7;
+}
+.inside{
+  background-color: #55565b;
+}
+.home{
+  background-color: #2fb6ef;
+}
+.menu1{
+  background-color: #505670;
+}
+.menu2{
+  background-color: #ce8e39;
+}
+.menu3{
+  background-color: #db6262;
+}
+.tab-pane{
+  color: white;
+}
+.right-border{
+  border-right: 1px solid lightgrey;
+}
+.navbar-default {
+    min-height: 30px;
+    font-size: 9px;
+    color: #fff;
+    background-color: #c30930;
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+  }
+  .border-bottom{
+    border-bottom: 1px solid darkgrey;
+  }
+  .banner .container{
+    background-color: #939496;
+  }
+  .margin{
+    margin: 10px;
+  }
+  .date{
+    color: #7c7c87;
+    font-size: 12px;
+  }
+ .btn-default{
+    /* color: #333; */
+    /* background-color: #fff; */
+    /* border-color: #ccc; */
+    background-color: #939496;
+    border: 1px solid darkgrey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
